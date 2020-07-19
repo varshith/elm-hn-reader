@@ -1,0 +1,86 @@
+/*
+  Some basic CSS for the HN top posts list.
+*/
+
+body {
+  border-left: 10px solid #ff6600;
+  margin: -20px 0 0 0;
+  padding-top: 20px;
+}
+
+.header {
+  background: #ff6600;
+  color: #fefefe;
+  letter-spacing: 0.1em;
+  padding: 25px;
+  margin: 0;
+}
+
+.card {
+  background: #fefefe;
+  padding: 20px;
+}
+
+.card-title {
+  color: #ff6600;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+.card-title:hover {
+  color: #ff7610;
+}
+
+.card-details {
+  color: #969696;
+}
+
+.card-title h3 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.card-author {
+  font-weight: bold;
+}
+
+.card-title-textbox {
+  padding: 5px;
+}
+
+.load-more {
+  background: #ff6600;
+  border: none;
+  border-radius: 0;
+  color: #fefefe;
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.load-more:hover {
+  background: #ff7610;
+}
+
+.load-more:active,
+.load-more:focus {
+  outline: none;
+}
+
+.wait {
+  color: #969696;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#content {
+  display: none;
+}
+#show:target #content {
+  display: inline-block;
+}
+#show:target #open {
+  display: none;
+}
