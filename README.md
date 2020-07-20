@@ -7,6 +7,8 @@ Some Features:
   (this will be reset on page refresh)
 - basic CSS styling
 
+![Demo](https://raw.githubusercontent.com/varshith/elm-hn-reader/master/demo.gif)
+
 # Elm App
 
 This project is bootstrapped with [Create Elm App](https://github.com/halfzebra/create-elm-app).
